@@ -1,0 +1,1854 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.16.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/liusicen/Datasets/nrdb90/nrdb90</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1a1qA</BlastOutput_query-def>
+  <BlastOutput_query-len>189</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1a1qA</Iteration_query-def>
+  <Iteration_query-len>189</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:gp|D28816|2506058</Hit_id>
+  <Hit_def>fusion protein, composed of HCV p21 (NS2), N-terminal region of HCV p70 (NS3) and TAX of HTLV-I [synthetic construct]//:remtrembl|BAA22616|BAA22616 FUSION PROTEIN, COMPOSED OF HCV P21 (NS2), N-TERMINAL REGION OF HCV P70 (NS3) AND TAX OF HTLV-I.</Hit_def>
+  <Hit_accession>/:gp|D28816|2506058</Hit_accession>
+  <Hit_len>877</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.096</Hsp_bit-score>
+      <Hsp_score>967</Hsp_score>
+      <Hsp_evalue>1.43409e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYSQQTRGLLGCIITSLTGRDKNQVDGEVQVLSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWPAPPGARSMTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSAGGPLLCPSGHVVGIFRAAVCTRGVAKAVDFIPVESMETTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAYSQQTRGLLGCIITSLTGRDKNQV+GEVQV+STATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGW APPGARS+TPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGS+GGPLLCPSGH VGIFRAAVCTRGVAKAVDF+PVESMETTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:gp|D28815|469213</Hit_id>
+  <Hit_def>fusion protein, composed of HCV p21 (NS2), HCV p70 (NS3) and TAX of HTLV-I [synthetic construct]//:remtrembl|BAA05975|BAA05975 FUSION PROTEIN, COMPOSED OF HCV P21 (NS2), HCV P70 (NS3) AND TAX OF HTLV-I.</Hit_def>
+  <Hit_accession>/:gp|D28815|469213</Hit_accession>
+  <Hit_len>1288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.022</Hsp_bit-score>
+      <Hsp_score>972</Hsp_score>
+      <Hsp_evalue>5.35794e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYSQQTRGLLGCIITSLTGRDKNQVDGEVQVLSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWPAPPGARSMTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHVVGIFRAAVCTRGVAKAVDFIPVESMETTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAYSQQTRGLLGCIITSLTGRDKNQV+GEVQV+STATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGW APPGARS+TPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGH VGIFRAAVCTRGVAKAVDF+PVESMETTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:gp|A76577|6088489</Hit_id>
+  <Hit_def>PT-NANBH coding sequence [unidentified]//:remtrembl|CAB58625|CAB58625 PT-NANBH coding sequence (fragment).</Hit_def>
+  <Hit_accession>/:gp|A76577|6088489</Hit_accession>
+  <Hit_len>2354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>3.59018e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPVIQMYTNVDQDLVGWPAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPISYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFIPVESMETTVRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGP+ QMYTNVDQDLVGW APPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRP+SYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDF+PVESMETT+RSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:sptrembl|Q9WPH5|Q9WPH5</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|AF139594|5532422 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WPH5|Q9WPH5</Hit_accession>
+  <Hit_len>3015</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>3.60206e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1028</Hsp_hit-from>
+      <Hsp_hit-to>1216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPIAQMYTNVDQDLVGWPAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDNRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGVFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPI QMYTNVDQDLVGW APPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGD+RGSLLSPRPVSYLKGSSGGPLLCPSGHAVG+FRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:sptrembl|Q81754|Q81754</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D14853|464178 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q81754|Q81754</Hit_accession>
+  <Hit_len>3011</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.147</Hsp_bit-score>
+      <Hsp_score>923</Hsp_score>
+      <Hsp_evalue>3.8672e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1027</Hsp_hit-from>
+      <Hsp_hit-to>1215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGCIITSLTGRDKNQVEGEVQIVSTATQTFLATCVNGVCWTVYHGAGSRTIASASGPVIQMYTNVDQDLVGWPAPQGARSLTPCTCGASDLYLVTRHADVIPVRRRGDNRGSLLSPRPISYLKGSSGGPLLCPMGHAVGIFRAAVCTRGVAKAVDFVPVESLETTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLGCIITSLTGRDKNQVEGEVQ+VSTATQ+FLATCVNGVCWTVYHGAGS+T+A   GP+ QMYTNVDQDLVGW AP GARSLTPCTCG+SDLYLVTRHADVIPVRRRGD+RGSLLSPRP+SYLKGSSGGPLLCP GHAVGIFRAAVCTRGVAKAVDFVPVES+ETTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:sptrembl|Q9PWX5|Q9PWX5</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2/NS1 (GP68)].//:gp|AF177038|6010584 polyprotein [Hepatitis C virus]//:gp|AF177040|6010588 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PWX5|Q9PWX5</Hit_accession>
+  <Hit_len>3015</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>359.762</Hsp_bit-score>
+      <Hsp_score>922</Hsp_score>
+      <Hsp_evalue>4.38581e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGCIITSLTGRDKNQVEGEVQIVSTATQTFLATCINGVCWTVYHGAGTRTIASPKGPVIQMYTNVDQDLVGWPAPQGSRSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPISYLKGSSGGPLLCPAGHAVGLFRAAVCTRGVAKAVDFIPVENLGTTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLGCIITSLTGRDKNQVEGEVQ+VSTATQ+FLATC+NGVCWTVYHGAG++T+A PKGP+ QMYTNVDQDLVGW AP G+RSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRP+SYLKGSSGGPLLCP+GHAVG+FRAAVCTRGVAKAVDF+PVE++ TTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:sptrembl|Q9DIT6|Q9DIT6</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|AJ278830|9843677 ORF1 [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9DIT6|Q9DIT6</Hit_accession>
+  <Hit_len>3011</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.992</Hsp_bit-score>
+      <Hsp_score>920</Hsp_score>
+      <Hsp_evalue>7.76215e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1027</Hsp_hit-from>
+      <Hsp_hit-to>1215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGCIITSLTGRDKNQVEGEVQIVSTAAQTFLATCINGVCWTVYHGAGTRTIASPKGPVIQMYTNVDQDLVGWPAPQGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDGRGSLLSPRPISYLKGSSGGPLLCPAGHAVGIFRAAVCTRGVAKAVEFVPVENLETTMRSPVFTDNSA</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLGCIITSLTGRDKNQVEGEVQ+VSTA Q+FLATC+NGVCWTVYHGAG++T+A PKGP+ QMYTNVDQDLVGW AP GARSLTPCTCGSSDLYLVTRHADVIPVRRRGD RGSLLSPRP+SYLKGSSGGPLLCP+GHAVGIFRAAVCTRGVAKAV+FVPVE++ETTMRSPVFTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:sptrembl|Q9IFH8|Q9IFH8</Hit_id>
+  <Hit_def>Polyprotein.//:gp|AF268278|9049957 polyprotein [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9IFH8|Q9IFH8</Hit_accession>
+  <Hit_len>4040</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.665</Hsp_bit-score>
+      <Hsp_score>888</Hsp_score>
+      <Hsp_evalue>1.63758e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>ITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRS</Hsp_qseq>
+      <Hsp_hseq>ITACAQQTRGLLGCKITSLTGRDKNQVEGEVQIVSTATQTFLATCINGVCWTVYHGAGTRTIASPKGPVIQMYTNVDQDLVGWPAPQGSRSLTPCTCGSSDLYLVTRHANVIPVRRRGDSRGSLLSPRPISYLKGSSGGPLLCPAGHAVGLFRAAVCTRGVAKAVDFIPVENLETTTRS</Hsp_hseq>
+      <Hsp_midline>ITA +QQTRGLLGC ITSLTGRDKNQVEGEVQ+VSTATQ+FLATC+NGVCWTVYHGAG++T+A PKGP+ QMYTNVDQDLVGW AP G+RSLTPCTCGSSDLYLVTRHA+VIPVRRRGDSRGSLLSPRP+SYLKGSSGGPLLCP+GHAVG+FRAAVCTRGVAKAVDF+PVE++ETT RS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:sptrembl|O91936|O91936</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|AF064490|3660726 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O91936|O91936</Hit_accession>
+  <Hit_len>3014</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.961</Hsp_bit-score>
+      <Hsp_score>868</Hsp_score>
+      <Hsp_evalue>9.73178e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1028</Hsp_hit-from>
+      <Hsp_hit-to>1216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGVLGAIIVSLTGRDKNEAEGEVQVLSTATQTFLGTCINGVMWTVFHGAGAKTLAGPKGPVVQMYTNVDKDLVGWPTPPGTRSLTPCTCGSADLYLVTRHADVVPARRRGDTRASLLSPRPISYLKGSSGGPVMCPSGHVVGVFRAAVCTRGVAKALDFIPVENLETTMRSPVFTDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRG+LG II SLTGRDKN+ EGEVQV+STATQ+FL TC+NGV WTV+HGAG+KTLAGPKGP+ QMYTNVD+DLVGW  PPG RSLTPCTCGS+DLYLVTRHADV+P RRRGD+R SLLSPRP+SYLKGSSGGP++CPSGH VG+FRAAVCTRGVAKA+DF+PVE++ETTMRSPVFTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>/:sptrembl|O92529|O92529</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D84262|3550759 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O92529|O92529</Hit_accession>
+  <Hit_len>3019</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.339</Hsp_bit-score>
+      <Hsp_score>856</Hsp_score>
+      <Hsp_evalue>3.17076e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1032</Hsp_hit-from>
+      <Hsp_hit-to>1220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLVGTIVTSLTGRDKNEAEGEVQVVSTATQSFLATTINGVLWTVYHGAGSKNLAGPKGPVCQMYTNVDQDLVGWPAPLGARSLAPCTCGSSDLYLVTRGADVIPARRRGDTRAALLSPRPISTLKGSSGGPLMCPSGHVVGLFRAAVCTRGVAKALDFIPVENMDTTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGL+G I+TSLTGRDKN+ EGEVQVVSTATQSFLAT +NGV WTVYHGAGSK LAGPKGP+ QMYTNVDQDLVGW AP GARSL PCTCGSSDLYLVTR ADVIP RRRGD+R +LLSPRP+S LKGSSGGPL+CPSGH VG+FRAAVCTRGVAKA+DF+PVE+M+TTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>/:sptrembl|O92531|O92531</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D84264|3550763 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O92531|O92531</Hit_accession>
+  <Hit_len>3016</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.339</Hsp_bit-score>
+      <Hsp_score>856</Hsp_score>
+      <Hsp_evalue>3.4928e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1029</Hsp_hit-from>
+      <Hsp_hit-to>1217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLVGTIVTSLTGRDKNEVEGEIQVVSTATQSFLATTVNGVLWTVYHGAGSKTLAGPKGPICQMYTNVDQDLVGWPAPPGARSLTPCTCGSSDLYLVTRNADVIPARRRGDTRAALLSPRPISTLKGSSGGPMLCPSGHVAGIFRAAVCTRGVAKSLDFVPVENMQSTARSPSFSDNTT</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGL+G I+TSLTGRDKN+VEGE+QVVSTATQSFLAT VNGV WTVYHGAGSKTLAGPKGPI QMYTNVDQDLVGW APPGARSLTPCTCGSSDLYLVTR+ADVIP RRRGD+R +LLSPRP+S LKGSSGGP+LCPSGH  GIFRAAVCTRGVAK++DFVPVE+M++T RSP F+DN++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>/:sptrembl|O92530|O92530</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D84263|3550761 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O92530|O92530</Hit_accession>
+  <Hit_len>3013</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.798</Hsp_bit-score>
+      <Hsp_score>852</Hsp_score>
+      <Hsp_evalue>1.04245e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1025</Hsp_hit-from>
+      <Hsp_hit-to>1213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYCQQTRGLLGTIVTSLTGRDRNVVEGEIQVLSTATQSFLGTAINGVMWTVYHGAGSKTLAGPKGPVCQMYTNVDQDMVGWPAPPGTRSLTPCTCGASDLYLVTRNADVIPARRRGDTRAGLLSPRPLSTLKGSSGGPLMCPSDHVVGLFRAAVCTRGVAKALDFVPVENMETTMRSPVFTDNST</Hsp_hseq>
+      <Hsp_midline>APITAY QQTRGLLG I+TSLTGRD+N VEGE+QV+STATQSFL T +NGV WTVYHGAGSKTLAGPKGP+ QMYTNVDQD+VGW APPG RSLTPCTCG+SDLYLVTR+ADVIP RRRGD+R  LLSPRP+S LKGSSGGPL+CPS H VG+FRAAVCTRGVAKA+DFVPVE+METTMRSPVFTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>/:sptrembl|O39929|O39929</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|Y11604|2252490 HCV polyprotein [Hepatitis C virus type 4a]</Hit_def>
+  <Hit_accession>/:sptrembl|O39929|O39929</Hit_accession>
+  <Hit_len>3008</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.257</Hsp_bit-score>
+      <Hsp_score>848</Hsp_score>
+      <Hsp_evalue>3.73918e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1027</Hsp_hit-from>
+      <Hsp_hit-to>1215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLFSTIVTSLTGRDTNENCGEVQVLSTATQSFLGTAVNGVMWTVYHGAGAKTISGPKGPVNQMYTNVDQDLVGWPAPPGVRSLAPCTCGSADLYLVTRHADVIPVRRRGDTRGALLSPRPISILKGSSGGPLLCPMGHRAGIFRAAVCTRGVAKAVDFVPVESLETTMRSPVFTDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGL   I+TSLTGRD N+  GEVQV+STATQSFL T VNGV WTVYHGAG+KT++GPKGP+ QMYTNVDQDLVGW APPG RSL PCTCGS+DLYLVTRHADVIPVRRRGD+RG+LLSPRP+S LKGSSGGPLLCP GH  GIFRAAVCTRGVAKAVDFVPVES+ETTMRSPVFTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>/:sptrembl|O39927|O39927</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|Y12083|2326455 polyprotein [Hepatitis C virus type 6a]</Hit_def>
+  <Hit_accession>/:sptrembl|O39927|O39927</Hit_accession>
+  <Hit_len>3018</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.176</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>5.67243e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLVGTIVTSLTGRDKNEVEGEVQVVSTDTQSFVATSINGVMWTVYHGPGFKTLAGPKGPVCQMYTNVDLDLVGWPSPPGARSLTPCNCGSSDLYLVTREADVIPARRRGDSRAALLSPRPISTLKGSSGGPIMCPSGHVVGLFRAAVCTRGVAKSLDFIPVENMETTMRSPSFTDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGL+G I+TSLTGRDKN+VEGEVQVVST TQSF+AT +NGV WTVYHG G KTLAGPKGP+ QMYTNVD DLVGW +PPGARSLTPC CGSSDLYLVTR ADVIP RRRGDSR +LLSPRP+S LKGSSGGP++CPSGH VG+FRAAVCTRGVAK++DF+PVE+METTMRSP FTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>/:sptrembl|Q68798|Q68798</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D63822|1183031 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q68798|Q68798</Hit_accession>
+  <Hit_len>3022</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>1.14969e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGTIVTSLTGRDKNEAAGEIQILSTATQTFLATCVNGVCWTVYHGAGSKTLAGPRGPVCQMYTNVDQDMVGWPAPAGTRSYTPCTCGASDLYLITRQADVIPARRRGDNRAGLISPRPISTLKGSSGGPLLCPSGHVVGLFRAAVCTRGVAKALDFVPCEAMDATTRSPTFTDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLG I+TSLTGRDKN+  GE+Q++STATQ+FLATCVNGVCWTVYHGAGSKTLAGP+GP+ QMYTNVDQD+VGW AP G RS TPCTCG+SDLYL+TR ADVIP RRRGD+R  L+SPRP+S LKGSSGGPLLCPSGH VG+FRAAVCTRGVAKA+DFVP E+M+ T RSP FTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>/:sptrembl|O92532|O92532</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D84265|3550765 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O92532|O92532</Hit_accession>
+  <Hit_len>3015</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.865</Hsp_bit-score>
+      <Hsp_score>834</Hsp_score>
+      <Hsp_evalue>2.99645e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1028</Hsp_hit-from>
+      <Hsp_hit-to>1216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGIVGTIVTSLTGRDKNEVEGEIQVVSTATQSFLATAVNGVLWTVYYGAGSKTLAGPKGPVCQMYTNVDQDLVGWPAPAGARSLTPCSCGSSDLYLVTRNADVIPARRRGDNRAALLSPRPISTLKGSSGGPMLCPSGHVAGIFRAAVCTRGVAKSLDFAPVESMQSSQRSPSFSDNTS</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRG++G I+TSLTGRDKN+VEGE+QVVSTATQSFLAT VNGV WTVY+GAGSKTLAGPKGP+ QMYTNVDQDLVGW AP GARSLTPC+CGSSDLYLVTR+ADVIP RRRGD+R +LLSPRP+S LKGSSGGP+LCPSGH  GIFRAAVCTRGVAK++DF PVESM+++ RSP F+DN+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>/:sptrembl|Q81258|Q81258</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D17763|1183029 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q81258|Q81258</Hit_accession>
+  <Hit_len>3021</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>9.51866e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1033</Hsp_hit-from>
+      <Hsp_hit-to>1221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGTIVTSLTGRDKNVVTGEVQVLSTATQTFLGTTVGGVIWTVYHGAGSRTLAGAKHPALQMYTNVDQDLVGWPAPPGAKSLEPCACGSSDLYLVTRDADVIPARRRGDSTASLLSPRPLACLKGSSGGPVMCPSGHVAGIFRAAVCTRGVAKSLQFIPVETLSTQARSPSFSDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLG I+TSLTGRDKN V GEVQV+STATQ+FL T V GV WTVYHGAGS+TLAG K P  QMYTNVDQDLVGW APPGA+SL PC CGSSDLYLVTR ADVIP RRRGDS  SLLSPRP++ LKGSSGGP++CPSGH  GIFRAAVCTRGVAK++ F+PVE++ T  RSP F+DNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>/:sptrembl|Q68801|Q68801</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D63821|1183033 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q68801|Q68801</Hit_accession>
+  <Hit_len>3019</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>1.4032e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1032</Hsp_hit-from>
+      <Hsp_hit-to>1220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAHAQQTRGLFGTIVTSLTGRDKNIVTGEIQVLSTSTQTFLGTSVGGVMWTVYHGAGSRTLAGNKRPALQMYTNVDQDLVGWPSPPGAKSLVPCTCGSADLYLITRDADVLPARRRGDSTASLLSPRPLACLKGSSGGPIMCPSGHVAGIFRAAVCTRGVAKALQFIPVESLSAQTRSPSFSDNST</Hsp_hseq>
+      <Hsp_midline>APITA++QQTRGL G I+TSLTGRDKN V GE+QV+ST+TQ+FL T V GV WTVYHGAGS+TLAG K P  QMYTNVDQDLVGW +PPGA+SL PCTCGS+DLYL+TR ADV+P RRRGDS  SLLSPRP++ LKGSSGGP++CPSGH  GIFRAAVCTRGVAKA+ F+PVES+    RSP F+DNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>/:sptrembl|Q9QAX1|Q9QAX1</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|AB031663|6521009 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9QAX1|Q9QAX1</Hit_accession>
+  <Hit_len>3033</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>1.40344e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGTIVVSMTGRDKTEQAGEIQVLSTVTQSFLGTTISGILWTVFHGAGNKTLAGSRGPVTQMYSSAEGDLVGWPSPPGTRSLDPCTCGAVDLYLVTRNADVIPARRQGDRRGALLSPRPLSSLKGSSGGPVLCPRGHAVGIFRAAICTRGAAKSIDFIPIESLDVIIRSPNFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLG I+ S+TGRDK +  GE+QV+ST TQSFL T ++G+ WTV+HGAG+KTLAG +GP+TQMY++ + DLVGW +PPG RSL PCTCG+ DLYLVTR+ADVIP RR+GD RG+LLSPRP+S LKGSSGGP+LCP GHAVGIFRAA+CTRG AK++DF+P+ES++  +RSP FTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>/:sptrembl|Q81487|Q81487</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D49374|1435035 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q81487|Q81487</Hit_accession>
+  <Hit_len>3023</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>2.00742e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1035</Hsp_hit-from>
+      <Hsp_hit-to>1223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>SPISAYAQQTRGLFGTIVTSLTGRDKNVVTGEVQVLSTATQTFLGTTVGGVMWTVYHGAGSRTLAGNKRPALQMYTNVDQDLVGWPAPAGTKSLDPCTCGSSDLYLVTREADVLPARRRGDSTASLLSTRPLSCLKGSSGGPVMCPSGHVVGIFRAAVCTRGVAKALQFIPVETLSTQVRSPSFSDNST</Hsp_hseq>
+      <Hsp_midline>+PI+AY+QQTRGL G I+TSLTGRDKN V GEVQV+STATQ+FL T V GV WTVYHGAGS+TLAG K P  QMYTNVDQDLVGW AP G +SL PCTCGSSDLYLVTR ADV+P RRRGDS  SLLS RP+S LKGSSGGP++CPSGH VGIFRAAVCTRGVAKA+ F+PVE++ T +RSP F+DNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>/:swiss|P26660|POLG_HCVJ6</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: Capsid protein C (Core protein) (P22); Envelope glycoprotein E1 (GP32) (GP35); Envelope glycoprotein E2 (GP68) (GP70) (NS1); Protein P7; Nonstructural protein NS2 (P21) (EC 3.4.22.-); Protease/helicase NS3 (P70) (Hepacivirin) (EC 3.4.21.98); Nonstructural protein NS4A (P4); Nonstructural protein NS4B (P27); Nonstructural protein NS5A (P56); Nonstructural protein NS5B (P66) (P70) (RNA-directed RNA polymerase) (EC 2.7.7.48)].//:swissnew|P26660|POLG_HCVJ6 Genome polyprotein [Contains: Capsid protein C (Core protein) (P22); Envelope glycoprotein E1 (GP32) (GP35); Envelope glycoprotein E2 (GP68) (GP70) (NS1); Protein P7; Nonstructural protein NS2 (P21) (EC 3.4.22.-); Protease/helicase NS3 (P70) (Hepacivirin) (EC 3.4.21.98); Nonstructural protein NS4A (P4); Nonstructural protein NS4B (P27); Nonstructural protein NS5A (P56); Nonstructural protein NS5B (P66) (P70) (RNA-directed RNA polymerase) (EC 2.7.7.48)].//:gp|D00944|221651 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:swiss|P26660|POLG_HCVJ6</Hit_accession>
+  <Hit_len>3033</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>2.58202e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGTIVVSMTGRDKTEQAGEIQVLSTVTQSFLGTTISGVLWTVYHGAGNKTLAGSRGPVTQMYSSAEGDLVGWPSPPGTKSLEPCTCGAVDLYLVTRNADVIPARRRGDKRGALLSPRPLSTLKGSSGGPVLCPRGHAVGVFRAAVCSRGVAKSIDFIPVETLDIVTRSPTFSDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLG I+ S+TGRDK +  GE+QV+ST TQSFL T ++GV WTVYHGAG+KTLAG +GP+TQMY++ + DLVGW +PPG +SL PCTCG+ DLYLVTR+ADVIP RRRGD RG+LLSPRP+S LKGSSGGP+LCP GHAVG+FRAAVC+RGVAK++DF+PVE+++   RSP F+DNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>/:swiss|P26661|POLG_HCVJ8</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: Capsid protein C (Core protein) (P22); Envelope glycoprotein E1 (GP32) (GP35); Envelope glycoprotein E2 (GP68) (GP70) (NS1); Protein P7; Nonstructural protein NS2 (P21) (EC 3.4.22.-); Protease/helicase NS3 (P70) (Hepacivirin) (EC 3.4.21.98); Nonstructural protein NS4A (P4); Nonstructural protein NS4B (P27); Nonstructural protein NS5A (P56); Nonstructural protein NS5B (P66) (P70) (RNA-directed RNA polymerase) (EC 2.7.7.48)].//:swissnew|P26661|POLG_HCVJ8 Genome polyprotein [Contains: Capsid protein C (Core protein) (P22); Envelope glycoprotein E1 (GP32) (GP35); Envelope glycoprotein E2 (GP68) (GP70) (NS1); Protein P7; Nonstructural protein NS2 (P21) (EC 3.4.22.-); Protease/helicase NS3 (P70) (Hepacivirin) (EC 3.4.21.98); Nonstructural protein NS4A (P4); Nonstructural protein NS4B (P27); Nonstructural protein NS5A (P56); Nonstructural protein NS5B (P66) (P70) (RNA-directed RNA polymerase) (EC 2.7.7.48)].//:gp|D10988|221609 polyprotein precursor [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:swiss|P26661|POLG_HCVJ8</Hit_accession>
+  <Hit_len>3033</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>5.82076e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYTQQTRGLLGAIVVSLTGRDKNEQAGQVQVLSSVTQTFLGTSISGVLWTVYHGAGNKTLAGPKGPVTQMYTSAEGDLVGWPSPPGTKSLDPCTCGAVDLYLVTRNADVIPVRRKDDRRGALLSPRPLSTLKGSSGGPVLCSRGHAVGLFRAAVCARGVAKSIDFIPVESLDVATRTPSFSDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLG I+ SLTGRDKN+  G+VQV+S+ TQ+FL T ++GV WTVYHGAG+KTLAGPKGP+TQMYT+ + DLVGW +PPG +SL PCTCG+ DLYLVTR+ADVIPVRR+ D RG+LLSPRP+S LKGSSGGP+LC  GHAVG+FRAAVC RGVAK++DF+PVES++   R+P F+DNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>/:sptrembl|Q68749|Q68749</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D50409|1483142 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q68749|Q68749</Hit_accession>
+  <Hit_len>3037</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.248</Hsp_bit-score>
+      <Hsp_score>700</Hsp_score>
+      <Hsp_evalue>3.36477e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLSAIVVSMTGRDKTDQAGEIQVLSTVTQSFLGTSISGVLWTVFHGAGNKTLAGSRGPVTQMYSSAEGDLVGWPSPPGTRSLEPCTCGAVDLYLVTRNADVIPARRRGDRRGALLSPRPLSSLKGSSGGPVLCPRGHAVGIFRAAVCSRGVAKSIDFIPVESLDVVTRSPNFTDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLL  I+ S+TGRDK    GE+QV+ST TQSFL T ++GV WTV+HGAG+KTLAG +GP+TQMY++ + DLVGW +PPG RSL PCTCG+ DLYLVTR+ADVIP RRRGD RG+LLSPRP+S LKGSSGGP+LCP GHAVGIFRAAVC+RGVAK++DF+PVES++   RSP FTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>/:sptrembl|Q8QP50|Q8QP50</Hit_id>
+  <Hit_def>Polyprotein (Fragment).</Hit_def>
+  <Hit_accession>/:sptrembl|Q8QP50|Q8QP50</Hit_accession>
+  <Hit_len>1130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>3.95582e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCG</Hsp_qseq>
+      <Hsp_hseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWPAPSGARSLTPCTCG</Hsp_hseq>
+      <Hsp_midline>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGW AP GARSLTPCTCG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>/:sptrembl|O09803|O09803</Hit_id>
+  <Hit_def>Genome polyprotein.//:gp|D90600|1944461 polyprotein [Hepatitis GB virus C]</Hit_def>
+  <Hit_accession>/:sptrembl|O09803|O09803</Hit_accession>
+  <Hit_len>2933</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>3.38964e-25</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>995</Hsp_hit-from>
+      <Hsp_hit-to>1172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>RGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDF------VPVESMETTMRSPV</Hsp_qseq>
+      <Hsp_hseq>KGFLGVTKAALTGRDPDLHPGNVMVLGTATSRSMGTCLNGLLFTTFHGASSRTIATPVGALNPRWWSASDDVTVYPLPDGATSLTPCTCQAESCWVIRSDGALCHGLSKGD-KVELDVAMEVSDFRGSSGSPVLCDEGHAVGMLVSVLHSGGRVTAARFTRPWTQVPTDAKTTTEPPPV</Hsp_hseq>
+      <Hsp_midline>+G LG    +LTGRD +   G V V+ TAT   + TC+NG+ +T +HGA S+T+A P G +   + +   D+  +  P GA SLTPCTC +   +++     +     +GD +  L     VS  +GSSG P+LC  GHAVG+  + + + G   A  F      VP ++  TT   PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>/:sptrembl|O56074|O56074</Hit_id>
+  <Hit_def>Genome polyprotein.//:pironly|T08841|T08841 polyprotein - douroucouli hepatitis GB virus A//:gp|AF023425|2828600 polyprotein [Hepatitis GB virus A]</Hit_def>
+  <Hit_accession>/:sptrembl|O56074|O56074</Hit_accession>
+  <Hit_len>3005</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.97799e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>979</Hsp_hit-from>
+      <Hsp_hit-to>1137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGV</Hsp_qseq>
+      <Hsp_hseq>APVVVM-QRGLGFFSVVKTSMLGRDEREHEGSIVVLGTSTTRSMGTCVNGVMYTTFHGSNARTLAGPVGPVNCRWWSPSDDVAVYPLPSGASCLEPCKCGTQSVWCIRN--DGALCHGRLSKLVELDLPTEISDFRGSSGSPILCDEGHVVGMM-VSVLHRGV</Hsp_hseq>
+      <Hsp_midline>AP+    Q+  G    + TS+ GRD+ + EG + V+ T+T   + TCVNGV +T +HG+ ++TLAGP GP+   + +   D+  +  P GA  L PC CG+  ++ +    D      R      L  P  +S  +GSSG P+LC  GH VG+   +V  RGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>/:sptrembl|Q9WBT6|Q9WBT6</Hit_id>
+  <Hit_def>Genome polyprotein.//:gp|AF070476|4883489 polyprotein [GB virus C variant troglodytes]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WBT6|Q9WBT6</Hit_accession>
+  <Hit_len>2942</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>7.53701e-24</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1006</Hsp_hit-from>
+      <Hsp_hit-to>1183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>RGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDF------VPVESMETTMRSPV</Hsp_qseq>
+      <Hsp_hseq>KGFLGVTKSALTGRDPDQHPGNVMVLGTTTSRSMGTCLNGMLFTTYHGATSRTIATPVGALNPRWWSPSDDVTVYPLPDGATSLAPCTCQPSSVWVIRADGALCHGSCHGD-KVELDVAMEVADFRGSSGSPVLCDEGHAVGMLVAVLHVGNRVTAARFTRPWNQVPSDAKTTTEPPPV</Hsp_hseq>
+      <Hsp_midline>+G LG   ++LTGRD +Q  G V V+ T T   + TC+NG+ +T YHGA S+T+A P G +   + +   D+  +  P GA SL PCTC  S ++++     +      GD +  L     V+  +GSSG P+LC  GHAVG+  A +       A  F      VP ++  TT   PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>/:sptrembl|O41892|O41892</Hit_id>
+  <Hit_def>Genome polyprotein.//:gp|U94421|2431864 polyprotein precursor [Hepatitis GB virus A]</Hit_def>
+  <Hit_accession>/:sptrembl|O41892|O41892</Hit_accession>
+  <Hit_len>2967</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>3.80052e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>963</Hsp_hit-from>
+      <Hsp_hit-to>1148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRG-------VAKAVDFVPVESMETTMRSPV</Hsp_qseq>
+      <Hsp_hseq>APVVVH-HQGKGFFGVVKTSMTGRDETDHCGNVVVLGTSTTRSMGTCVNGVMYATYHGTNGRTMAGPMGPVNARWWSTSDDVCVYPLPMGATCLEPCKCSPQGVWVV-RNDGALCHGTLGKTV-ELDLPAELCDFRGSSGSPILCDEGHAVGML-VSVLHRGNRVTGIRYTKPWETLPREAQTKTEAPPV</Hsp_hseq>
+      <Hsp_midline>AP+  +  Q +G  G + TS+TGRD+    G V V+ T+T   + TCVNGV +  YHG   +T+AGP GP+   + +   D+  +  P GA  L PC C    +++V R+   +     G +   L  P  +   +GSSG P+LC  GHAVG+   +V  RG         K  + +P E+   T   PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>/:sptrembl|Q9QEW5|Q9QEW5</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E1 (GP32) (GP35)].//:gp|AF179612|6014505 polyprotein [Hepatitis GB virus B]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9QEW5|Q9QEW5</Hit_accession>
+  <Hit_len>2864</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>6.80822e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>941</Hsp_hit-from>
+      <Hsp_hit-to>1097</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAA</Hsp_qseq>
+      <Hsp_hseq>APFTLQCLSERGTLSAMAVVMTGIDPRTWTGTIFRLGSLATSYMGFVCDNVLYTAHHGSKGRRLAHPTGSIHPITVDAANDQDIYQPPCGAGSLTRCSCGETKGYLVTRLGSLVEVNKSDDPYWCVCGALPMAVAKGSSGAPILCSSGHVIGMFTAA</Hsp_hseq>
+      <Hsp_midline>AP T      RG L  +   +TG D     G +  + +   S++    + V +T +HG+  + LA P G I  +  +   D   +Q P GA SLT C+CG +  YLVTR   ++ V +  D    +    P++  KGSSG P+LC SGH +G+F AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>/:sptrembl|O56073|O56073</Hit_id>
+  <Hit_def>Genome polyprotein.//:pironly|T08839|T08839 polyprotein - marmoset hepatitis GB virus A//:gp|AF023424|2828598 polyprotein [Hepatitis GB virus A]</Hit_def>
+  <Hit_accession>/:sptrembl|O56073|O56073</Hit_accession>
+  <Hit_len>2970</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>7.95399e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>970</Hsp_hit-from>
+      <Hsp_hit-to>1155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRG-------VAKAVDFVPVESMETTMRSPV</Hsp_qseq>
+      <Hsp_hseq>APVVVH-HHGKGFFGVVKTSMTGWDETEHVGNVVVLGTSTTRSMGTCVNGVMYTTYHGSNARTLAAQMGPVNSRWWSASDDVAVYPLPVGAKCLEPCKCQPQGVWVI-RNDGALCHGTLGRTV-ELDLPAELCDFRGSSGSPILCDEGHAVGML-ISVLHRGSRVTGIRYTKPWETLPREAITHTEAPPV</Hsp_hseq>
+      <Hsp_midline>AP+  +    +G  G + TS+TG D+ +  G V V+ T+T   + TCVNGV +T YHG+ ++TLA   GP+   + +   D+  +  P GA+ L PC C    ++++ R+   +     G +   L  P  +   +GSSG P+LC  GHAVG+   +V  RG         K  + +P E++  T   PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>/:sptrembl|Q96898|Q96898</Hit_id>
+  <Hit_def>Genome polyprotein.//:gp|U22303|1572848 polyprotein [Hepatitis GB virus A]</Hit_def>
+  <Hit_accession>/:sptrembl|Q96898|Q96898</Hit_accession>
+  <Hit_len>2954</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>3.67023e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>964</Hsp_hit-from>
+      <Hsp_hit-to>1114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIF</Hsp_qseq>
+      <Hsp_hseq>APVVLH-QAGKGFFGVVKTSMTGKDPSEHHGNVVVLGTSTTRSMGCCVNGVVYTTYHGTNARPMAGPFGPVNARWWSASDDVTVYPLPNGASCLQACKCQPTGVWVI-RNDGALCHGTLGKVV-DLDMPAELSDFRGSSGSPILCDEGHAVGML</Hsp_hseq>
+      <Hsp_midline>AP+  + Q  +G  G + TS+TG+D ++  G V V+ T+T   +  CVNGV +T YHG  ++ +AGP GP+   + +   D+  +  P GA  L  C C  + ++++ R+   +     G     L  P  +S  +GSSG P+LC  GHAVG+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>/:gp|AF127762|5353561</Hit_id>
+  <Hit_def>superoxide dismutase/HCV major epitope fusion protein [synthetic construct]//:remtrembl|AAD42179|AAD42179 SUPEROXIDE DISMUTASE/HCV MAJOR EPITOPE FUSION PROTEIN.</Hit_def>
+  <Hit_accession>/:gp|AF127762|5353561</Hit_accession>
+  <Hit_len>839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>4.17106e-06</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>AVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>AVDFIPVENLETTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>AVDF+PVE++ETTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>110</Statistics_hsp-len>
+      <Statistics_eff-space>9422973455</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1a1qA</Iteration_query-def>
+  <Iteration_query-len>189</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:gp|D28816|2506058</Hit_id>
+  <Hit_def>fusion protein, composed of HCV p21 (NS2), N-terminal region of HCV p70 (NS3) and TAX of HTLV-I [synthetic construct]//:remtrembl|BAA22616|BAA22616 FUSION PROTEIN, COMPOSED OF HCV P21 (NS2), N-TERMINAL REGION OF HCV P70 (NS3) AND TAX OF HTLV-I.</Hit_def>
+  <Hit_accession>/:gp|D28816|2506058</Hit_accession>
+  <Hit_len>877</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.347</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>2.32946e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYSQQTRGLLGCIITSLTGRDKNQVDGEVQVLSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWPAPPGARSMTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSAGGPLLCPSGHVVGIFRAAVCTRGVAKAVDFIPVESMETTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAYSQQTRGLLGCIITSLTGRDKNQV+GEVQV+STATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGW APPGARS+TPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGS+GGPLLCPSGH VGIFRAAVCTRGVAKAVDF+PVESMETTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:gp|D28815|469213</Hit_id>
+  <Hit_def>fusion protein, composed of HCV p21 (NS2), HCV p70 (NS3) and TAX of HTLV-I [synthetic construct]//:remtrembl|BAA05975|BAA05975 FUSION PROTEIN, COMPOSED OF HCV P21 (NS2), HCV P70 (NS3) AND TAX OF HTLV-I.</Hit_def>
+  <Hit_accession>/:gp|D28815|469213</Hit_accession>
+  <Hit_len>1288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.807</Hsp_bit-score>
+      <Hsp_score>847</Hsp_score>
+      <Hsp_evalue>4.22986e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYSQQTRGLLGCIITSLTGRDKNQVDGEVQVLSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWPAPPGARSMTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHVVGIFRAAVCTRGVAKAVDFIPVESMETTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAYSQQTRGLLGCIITSLTGRDKNQV+GEVQV+STATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGW APPGARS+TPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGH VGIFRAAVCTRGVAKAVDF+PVESMETTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:gp|A76577|6088489</Hit_id>
+  <Hit_def>PT-NANBH coding sequence [unidentified]//:remtrembl|CAB58625|CAB58625 PT-NANBH coding sequence (fragment).</Hit_def>
+  <Hit_accession>/:gp|A76577|6088489</Hit_accession>
+  <Hit_len>2354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.962</Hsp_bit-score>
+      <Hsp_score>850</Hsp_score>
+      <Hsp_evalue>2.14673e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPVIQMYTNVDQDLVGWPAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPISYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFIPVESMETTVRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGP+ QMYTNVDQDLVGW APPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRP+SYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDF+PVESMETT+RSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:sptrembl|Q9WPH5|Q9WPH5</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|AF139594|5532422 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WPH5|Q9WPH5</Hit_accession>
+  <Hit_len>3015</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.266</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>2.32217e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1028</Hsp_hit-from>
+      <Hsp_hit-to>1216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPIAQMYTNVDQDLVGWPAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDNRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGVFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPI QMYTNVDQDLVGW APPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGD+RGSLLSPRPVSYLKGSSGGPLLCPSGHAVG+FRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:sptrembl|O92530|O92530</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D84263|3550761 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O92530|O92530</Hit_accession>
+  <Hit_len>3013</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.569</Hsp_bit-score>
+      <Hsp_score>836</Hsp_score>
+      <Hsp_evalue>1.60846e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1025</Hsp_hit-from>
+      <Hsp_hit-to>1213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYCQQTRGLLGTIVTSLTGRDRNVVEGEIQVLSTATQSFLGTAINGVMWTVYHGAGSKTLAGPKGPVCQMYTNVDQDMVGWPAPPGTRSLTPCTCGASDLYLVTRNADVIPARRRGDTRAGLLSPRPLSTLKGSSGGPLMCPSDHVVGLFRAAVCTRGVAKALDFVPVENMETTMRSPVFTDNST</Hsp_hseq>
+      <Hsp_midline>APITAY QQTRGLLG I+TSLTGRD+N VEGE+QV+STATQSFL T +NGV WTVYHGAGSKTLAGPKGP+ QMYTNVDQD+VGW APPG RSLTPCTCG+SDLYLVTR+ADVIP RRRGD+R  LLSPRP+S LKGSSGGPL+CPS H VG+FRAAVCTRGVAKA+DFVPVE+METTMRSPVFTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:sptrembl|O91936|O91936</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|AF064490|3660726 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O91936|O91936</Hit_accession>
+  <Hit_len>3014</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.029</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>5.55078e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1028</Hsp_hit-from>
+      <Hsp_hit-to>1216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGVLGAIIVSLTGRDKNEAEGEVQVLSTATQTFLGTCINGVMWTVFHGAGAKTLAGPKGPVVQMYTNVDKDLVGWPTPPGTRSLTPCTCGSADLYLVTRHADVVPARRRGDTRASLLSPRPISYLKGSSGGPVMCPSGHVVGVFRAAVCTRGVAKALDFIPVENLETTMRSPVFTDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRG+LG II SLTGRDKN+ EGEVQV+STATQ+FL TC+NGV WTV+HGAG+KTLAGPKGP+ QMYTNVD+DLVGW  PPG RSLTPCTCGS+DLYLVTRHADV+P RRRGD+R SLLSPRP+SYLKGSSGGP++CPSGH VG+FRAAVCTRGVAKA+DF+PVE++ETTMRSPVFTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:sptrembl|Q9PWX5|Q9PWX5</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2/NS1 (GP68)].//:gp|AF177038|6010584 polyprotein [Hepatitis C virus]//:gp|AF177040|6010588 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PWX5|Q9PWX5</Hit_accession>
+  <Hit_len>3015</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.029</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>6.54341e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGCIITSLTGRDKNQVEGEVQIVSTATQTFLATCINGVCWTVYHGAGTRTIASPKGPVIQMYTNVDQDLVGWPAPQGSRSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPISYLKGSSGGPLLCPAGHAVGLFRAAVCTRGVAKAVDFIPVENLGTTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLGCIITSLTGRDKNQVEGEVQ+VSTATQ+FLATC+NGVCWTVYHGAG++T+A PKGP+ QMYTNVDQDLVGW AP G+RSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRP+SYLKGSSGGPLLCP+GHAVG+FRAAVCTRGVAKAVDF+PVE++ TTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:sptrembl|Q81754|Q81754</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D14853|464178 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q81754|Q81754</Hit_accession>
+  <Hit_len>3011</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.873</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>1.7388e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1027</Hsp_hit-from>
+      <Hsp_hit-to>1215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGCIITSLTGRDKNQVEGEVQIVSTATQTFLATCVNGVCWTVYHGAGSRTIASASGPVIQMYTNVDQDLVGWPAPQGARSLTPCTCGASDLYLVTRHADVIPVRRRGDNRGSLLSPRPISYLKGSSGGPLLCPMGHAVGIFRAAVCTRGVAKAVDFVPVESLETTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLGCIITSLTGRDKNQVEGEVQ+VSTATQ+FLATCVNGVCWTVYHGAGS+T+A   GP+ QMYTNVDQDLVGW AP GARSLTPCTCG+SDLYLVTRHADVIPVRRRGD+RGSLLSPRP+SYLKGSSGGPLLCP GHAVGIFRAAVCTRGVAKAVDFVPVES+ETTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:sptrembl|O92531|O92531</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D84264|3550763 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O92531|O92531</Hit_accession>
+  <Hit_len>3016</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.103</Hsp_bit-score>
+      <Hsp_score>827</Hsp_score>
+      <Hsp_evalue>2.71392e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1029</Hsp_hit-from>
+      <Hsp_hit-to>1217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLVGTIVTSLTGRDKNEVEGEIQVVSTATQSFLATTVNGVLWTVYHGAGSKTLAGPKGPICQMYTNVDQDLVGWPAPPGARSLTPCTCGSSDLYLVTRNADVIPARRRGDTRAALLSPRPISTLKGSSGGPMLCPSGHVAGIFRAAVCTRGVAKSLDFVPVENMQSTARSPSFSDNTT</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGL+G I+TSLTGRDKN+VEGE+QVVSTATQSFLAT VNGV WTVYHGAGSKTLAGPKGPI QMYTNVDQDLVGW APPGARSLTPCTCGSSDLYLVTR+ADVIP RRRGD+R +LLSPRP+S LKGSSGGP+LCPSGH  GIFRAAVCTRGVAK++DFVPVE+M++T RSP F+DN++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>/:sptrembl|Q9IFH8|Q9IFH8</Hit_id>
+  <Hit_def>Polyprotein.//:gp|AF268278|9049957 polyprotein [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9IFH8|Q9IFH8</Hit_accession>
+  <Hit_len>4040</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.947</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>7.64029e-101</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>ITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTD</Hsp_qseq>
+      <Hsp_hseq>ITACAQQTRGLLGCKITSLTGRDKNQVEGEVQIVSTATQTFLATCINGVCWTVYHGAGTRTIASPKGPVIQMYTNVDQDLVGWPAPQGSRSLTPCTCGSSDLYLVTRHANVIPVRRRGDSRGSLLSPRPISYLKGSSGGPLLCPAGHAVGLFRAAVCTRGVAKAVDFIPVENLETTTRSGSGAD</Hsp_hseq>
+      <Hsp_midline>ITA +QQTRGLLGC ITSLTGRDKNQVEGEVQ+VSTATQ+FLATC+NGVCWTVYHGAG++T+A PKGP+ QMYTNVDQDLVGW AP G+RSLTPCTCGSSDLYLVTRHA+VIPVRRRGDSRGSLLSPRP+SYLKGSSGGPLLCP+GHAVG+FRAAVCTRGVAKAVDF+PVE++ETT RS    D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>/:sptrembl|O92529|O92529</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D84262|3550759 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O92529|O92529</Hit_accession>
+  <Hit_len>3019</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.562</Hsp_bit-score>
+      <Hsp_score>823</Hsp_score>
+      <Hsp_evalue>9.09793e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1032</Hsp_hit-from>
+      <Hsp_hit-to>1220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLVGTIVTSLTGRDKNEAEGEVQVVSTATQSFLATTINGVLWTVYHGAGSKNLAGPKGPVCQMYTNVDQDLVGWPAPLGARSLAPCTCGSSDLYLVTRGADVIPARRRGDTRAALLSPRPISTLKGSSGGPLMCPSGHVVGLFRAAVCTRGVAKALDFIPVENMDTTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGL+G I+TSLTGRDKN+ EGEVQVVSTATQSFLAT +NGV WTVYHGAGSK LAGPKGP+ QMYTNVDQDLVGW AP GARSL PCTCGSSDLYLVTR ADVIP RRRGD+R +LLSPRP+S LKGSSGGPL+CPSGH VG+FRAAVCTRGVAKA+DF+PVE+M+TTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>/:sptrembl|Q9DIT6|Q9DIT6</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|AJ278830|9843677 ORF1 [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9DIT6|Q9DIT6</Hit_accession>
+  <Hit_len>3011</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.562</Hsp_bit-score>
+      <Hsp_score>823</Hsp_score>
+      <Hsp_evalue>9.73462e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1027</Hsp_hit-from>
+      <Hsp_hit-to>1215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGCIITSLTGRDKNQVEGEVQIVSTAAQTFLATCINGVCWTVYHGAGTRTIASPKGPVIQMYTNVDQDLVGWPAPQGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDGRGSLLSPRPISYLKGSSGGPLLCPAGHAVGIFRAAVCTRGVAKAVEFVPVENLETTMRSPVFTDNSA</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLGCIITSLTGRDKNQVEGEVQ+VSTA Q+FLATC+NGVCWTVYHGAG++T+A PKGP+ QMYTNVDQDLVGW AP GARSLTPCTCGSSDLYLVTRHADVIPVRRRGD RGSLLSPRP+SYLKGSSGGPLLCP+GHAVGIFRAAVCTRGVAKAV+FVPVE++ETTMRSPVFTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>/:sptrembl|O39929|O39929</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|Y11604|2252490 HCV polyprotein [Hepatitis C virus type 4a]</Hit_def>
+  <Hit_accession>/:sptrembl|O39929|O39929</Hit_accession>
+  <Hit_len>3008</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.791</Hsp_bit-score>
+      <Hsp_score>821</Hsp_score>
+      <Hsp_evalue>1.79089e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1027</Hsp_hit-from>
+      <Hsp_hit-to>1215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLFSTIVTSLTGRDTNENCGEVQVLSTATQSFLGTAVNGVMWTVYHGAGAKTISGPKGPVNQMYTNVDQDLVGWPAPPGVRSLAPCTCGSADLYLVTRHADVIPVRRRGDTRGALLSPRPISILKGSSGGPLLCPMGHRAGIFRAAVCTRGVAKAVDFVPVESLETTMRSPVFTDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGL   I+TSLTGRD N+  GEVQV+STATQSFL T VNGV WTVYHGAG+KT++GPKGP+ QMYTNVDQDLVGW APPG RSL PCTCGS+DLYLVTRHADVIPVRRRGD+RG+LLSPRP+S LKGSSGGPLLCP GH  GIFRAAVCTRGVAKAVDFVPVES+ETTMRSPVFTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>/:sptrembl|Q68798|Q68798</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D63822|1183031 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q68798|Q68798</Hit_accession>
+  <Hit_len>3022</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.791</Hsp_bit-score>
+      <Hsp_score>821</Hsp_score>
+      <Hsp_evalue>1.84396e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGTIVTSLTGRDKNEAAGEIQILSTATQTFLATCVNGVCWTVYHGAGSKTLAGPRGPVCQMYTNVDQDMVGWPAPAGTRSYTPCTCGASDLYLITRQADVIPARRRGDNRAGLISPRPISTLKGSSGGPLLCPSGHVVGLFRAAVCTRGVAKALDFVPCEAMDATTRSPTFTDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLG I+TSLTGRDKN+  GE+Q++STATQ+FLATCVNGVCWTVYHGAGSKTLAGP+GP+ QMYTNVDQD+VGW AP G RS TPCTCG+SDLYL+TR ADVIP RRRGD+R  L+SPRP+S LKGSSGGPLLCPSGH VG+FRAAVCTRGVAKA+DFVP E+M+ T RSP FTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>/:sptrembl|O39927|O39927</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|Y12083|2326455 polyprotein [Hepatitis C virus type 6a]</Hit_def>
+  <Hit_accession>/:sptrembl|O39927|O39927</Hit_accession>
+  <Hit_len>3018</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.636</Hsp_bit-score>
+      <Hsp_score>818</Hsp_score>
+      <Hsp_evalue>4.90001e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLVGTIVTSLTGRDKNEVEGEVQVVSTDTQSFVATSINGVMWTVYHGPGFKTLAGPKGPVCQMYTNVDLDLVGWPSPPGARSLTPCNCGSSDLYLVTREADVIPARRRGDSRAALLSPRPISTLKGSSGGPIMCPSGHVVGLFRAAVCTRGVAKSLDFIPVENMETTMRSPSFTDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGL+G I+TSLTGRDKN+VEGEVQVVST TQSF+AT +NGV WTVYHG G KTLAGPKGP+ QMYTNVD DLVGW +PPGARSLTPC CGSSDLYLVTR ADVIP RRRGDSR +LLSPRP+S LKGSSGGP++CPSGH VG+FRAAVCTRGVAK++DF+PVE+METTMRSP FTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>/:sptrembl|O92532|O92532</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D84265|3550765 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O92532|O92532</Hit_accession>
+  <Hit_len>3015</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.399</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>1.26552e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1028</Hsp_hit-from>
+      <Hsp_hit-to>1216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGIVGTIVTSLTGRDKNEVEGEIQVVSTATQSFLATAVNGVLWTVYYGAGSKTLAGPKGPVCQMYTNVDQDLVGWPAPAGARSLTPCSCGSSDLYLVTRNADVIPARRRGDNRAALLSPRPISTLKGSSGGPMLCPSGHVAGIFRAAVCTRGVAKSLDFAPVESMQSSQRSPSFSDNTS</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRG++G I+TSLTGRDKN+VEGE+QVVSTATQSFLAT VNGV WTVY+GAGSKTLAGPKGP+ QMYTNVDQDLVGW AP GARSLTPC+CGSSDLYLVTR+ADVIP RRRGD+R +LLSPRP+S LKGSSGGP+LCPSGH  GIFRAAVCTRGVAK++DF PVESM+++ RSP F+DN+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>/:sptrembl|Q81258|Q81258</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D17763|1183029 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q81258|Q81258</Hit_accession>
+  <Hit_len>3021</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.776</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>5.35454e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1033</Hsp_hit-from>
+      <Hsp_hit-to>1221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGTIVTSLTGRDKNVVTGEVQVLSTATQTFLGTTVGGVIWTVYHGAGSRTLAGAKHPALQMYTNVDQDLVGWPAPPGAKSLEPCACGSSDLYLVTRDADVIPARRRGDSTASLLSPRPLACLKGSSGGPVMCPSGHVAGIFRAAVCTRGVAKSLQFIPVETLSTQARSPSFSDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLG I+TSLTGRDKN V GEVQV+STATQ+FL T V GV WTVYHGAGS+TLAG K P  QMYTNVDQDLVGW APPGA+SL PC CGSSDLYLVTR ADVIP RRRGDS  SLLSPRP++ LKGSSGGP++CPSGH  GIFRAAVCTRGVAK++ F+PVE++ T  RSP F+DNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>/:sptrembl|Q68801|Q68801</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D63821|1183033 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q68801|Q68801</Hit_accession>
+  <Hit_len>3019</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.391</Hsp_bit-score>
+      <Hsp_score>794</Hsp_score>
+      <Hsp_evalue>8.43792e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1032</Hsp_hit-from>
+      <Hsp_hit-to>1220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAHAQQTRGLFGTIVTSLTGRDKNIVTGEIQVLSTSTQTFLGTSVGGVMWTVYHGAGSRTLAGNKRPALQMYTNVDQDLVGWPSPPGAKSLVPCTCGSADLYLITRDADVLPARRRGDSTASLLSPRPLACLKGSSGGPIMCPSGHVAGIFRAAVCTRGVAKALQFIPVESLSAQTRSPSFSDNST</Hsp_hseq>
+      <Hsp_midline>APITA++QQTRGL G I+TSLTGRDKN V GE+QV+ST+TQ+FL T V GV WTVYHGAGS+TLAG K P  QMYTNVDQDLVGW +PPGA+SL PCTCGS+DLYL+TR ADV+P RRRGDS  SLLSPRP++ LKGSSGGP++CPSGH  GIFRAAVCTRGVAKA+ F+PVES+    RSP F+DNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>/:swiss|P26660|POLG_HCVJ6</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: Capsid protein C (Core protein) (P22); Envelope glycoprotein E1 (GP32) (GP35); Envelope glycoprotein E2 (GP68) (GP70) (NS1); Protein P7; Nonstructural protein NS2 (P21) (EC 3.4.22.-); Protease/helicase NS3 (P70) (Hepacivirin) (EC 3.4.21.98); Nonstructural protein NS4A (P4); Nonstructural protein NS4B (P27); Nonstructural protein NS5A (P56); Nonstructural protein NS5B (P66) (P70) (RNA-directed RNA polymerase) (EC 2.7.7.48)].//:swissnew|P26660|POLG_HCVJ6 Genome polyprotein [Contains: Capsid protein C (Core protein) (P22); Envelope glycoprotein E1 (GP32) (GP35); Envelope glycoprotein E2 (GP68) (GP70) (NS1); Protein P7; Nonstructural protein NS2 (P21) (EC 3.4.22.-); Protease/helicase NS3 (P70) (Hepacivirin) (EC 3.4.21.98); Nonstructural protein NS4A (P4); Nonstructural protein NS4B (P27); Nonstructural protein NS5A (P56); Nonstructural protein NS5B (P66) (P70) (RNA-directed RNA polymerase) (EC 2.7.7.48)].//:gp|D00944|221651 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:swiss|P26660|POLG_HCVJ6</Hit_accession>
+  <Hit_len>3033</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.621</Hsp_bit-score>
+      <Hsp_score>792</Hsp_score>
+      <Hsp_evalue>1.31714e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGTIVVSMTGRDKTEQAGEIQVLSTVTQSFLGTTISGVLWTVYHGAGNKTLAGSRGPVTQMYSSAEGDLVGWPSPPGTKSLEPCTCGAVDLYLVTRNADVIPARRRGDKRGALLSPRPLSTLKGSSGGPVLCPRGHAVGVFRAAVCSRGVAKSIDFIPVETLDIVTRSPTFSDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLG I+ S+TGRDK +  GE+QV+ST TQSFL T ++GV WTVYHGAG+KTLAG +GP+TQMY++ + DLVGW +PPG +SL PCTCG+ DLYLVTR+ADVIP RRRGD RG+LLSPRP+S LKGSSGGP+LCP GHAVG+FRAAVC+RGVAK++DF+PVE+++   RSP F+DNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>/:swiss|P26661|POLG_HCVJ8</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: Capsid protein C (Core protein) (P22); Envelope glycoprotein E1 (GP32) (GP35); Envelope glycoprotein E2 (GP68) (GP70) (NS1); Protein P7; Nonstructural protein NS2 (P21) (EC 3.4.22.-); Protease/helicase NS3 (P70) (Hepacivirin) (EC 3.4.21.98); Nonstructural protein NS4A (P4); Nonstructural protein NS4B (P27); Nonstructural protein NS5A (P56); Nonstructural protein NS5B (P66) (P70) (RNA-directed RNA polymerase) (EC 2.7.7.48)].//:swissnew|P26661|POLG_HCVJ8 Genome polyprotein [Contains: Capsid protein C (Core protein) (P22); Envelope glycoprotein E1 (GP32) (GP35); Envelope glycoprotein E2 (GP68) (GP70) (NS1); Protein P7; Nonstructural protein NS2 (P21) (EC 3.4.22.-); Protease/helicase NS3 (P70) (Hepacivirin) (EC 3.4.21.98); Nonstructural protein NS4A (P4); Nonstructural protein NS4B (P27); Nonstructural protein NS5A (P56); Nonstructural protein NS5B (P66) (P70) (RNA-directed RNA polymerase) (EC 2.7.7.48)].//:gp|D10988|221609 polyprotein precursor [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:swiss|P26661|POLG_HCVJ8</Hit_accession>
+  <Hit_len>3033</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.08</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>4.86393e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYTQQTRGLLGAIVVSLTGRDKNEQAGQVQVLSSVTQTFLGTSISGVLWTVYHGAGNKTLAGPKGPVTQMYTSAEGDLVGWPSPPGTKSLDPCTCGAVDLYLVTRNADVIPVRRKDDRRGALLSPRPLSTLKGSSGGPVLCSRGHAVGLFRAAVCARGVAKSIDFIPVESLDVATRTPSFSDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLG I+ SLTGRDKN+  G+VQV+S+ TQ+FL T ++GV WTVYHGAG+KTLAGPKGP+TQMYT+ + DLVGW +PPG +SL PCTCG+ DLYLVTR+ADVIPVRR+ D RG+LLSPRP+S LKGSSGGP+LC  GHAVG+FRAAVC RGVAK++DF+PVES++   R+P F+DNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>/:sptrembl|Q81487|Q81487</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D49374|1435035 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q81487|Q81487</Hit_accession>
+  <Hit_len>3023</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.309</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>8.60775e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1035</Hsp_hit-from>
+      <Hsp_hit-to>1223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>SPISAYAQQTRGLFGTIVTSLTGRDKNVVTGEVQVLSTATQTFLGTTVGGVMWTVYHGAGSRTLAGNKRPALQMYTNVDQDLVGWPAPAGTKSLDPCTCGSSDLYLVTREADVLPARRRGDSTASLLSTRPLSCLKGSSGGPVMCPSGHVVGIFRAAVCTRGVAKALQFIPVETLSTQVRSPSFSDNST</Hsp_hseq>
+      <Hsp_midline>+PI+AY+QQTRGL G I+TSLTGRDKN V GEVQV+STATQ+FL T V GV WTVYHGAGS+TLAG K P  QMYTNVDQDLVGW AP G +SL PCTCGSSDLYLVTR ADV+P RRRGDS  SLLS RP+S LKGSSGGP++CPSGH VGIFRAAVCTRGVAKA+ F+PVE++ T +RSP F+DNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>/:sptrembl|Q9QAX1|Q9QAX1</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|AB031663|6521009 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9QAX1|Q9QAX1</Hit_accession>
+  <Hit_len>3033</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.154</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>2.59444e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLGTIVVSMTGRDKTEQAGEIQVLSTVTQSFLGTTISGILWTVFHGAGNKTLAGSRGPVTQMYSSAEGDLVGWPSPPGTRSLDPCTCGAVDLYLVTRNADVIPARRQGDRRGALLSPRPLSSLKGSSGGPVLCPRGHAVGIFRAAICTRGAAKSIDFIPIESLDVIIRSPNFTDNSS</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLLG I+ S+TGRDK +  GE+QV+ST TQSFL T ++G+ WTV+HGAG+KTLAG +GP+TQMY++ + DLVGW +PPG RSL PCTCG+ DLYLVTR+ADVIP RR+GD RG+LLSPRP+S LKGSSGGP+LCP GHAVGIFRAA+CTRG AK++DF+P+ES++  +RSP FTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>/:sptrembl|Q68749|Q68749</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E2 (GP68) (GP70) (NS1)].//:gp|D50409|1483142 polyprotein [Hepatitis C virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q68749|Q68749</Hit_accession>
+  <Hit_len>3037</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.901</Hsp_bit-score>
+      <Hsp_score>746</Hsp_score>
+      <Hsp_evalue>2.52687e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>APITAYAQQTRGLLSAIVVSMTGRDKTDQAGEIQVLSTVTQSFLGTSISGVLWTVFHGAGNKTLAGSRGPVTQMYSSAEGDLVGWPSPPGTRSLEPCTCGAVDLYLVTRNADVIPARRRGDRRGALLSPRPLSSLKGSSGGPVLCPRGHAVGIFRAAVCSRGVAKSIDFIPVESLDVVTRSPNFTDNST</Hsp_hseq>
+      <Hsp_midline>APITAY+QQTRGLL  I+ S+TGRDK    GE+QV+ST TQSFL T ++GV WTV+HGAG+KTLAG +GP+TQMY++ + DLVGW +PPG RSL PCTCG+ DLYLVTR+ADVIP RRRGD RG+LLSPRP+S LKGSSGGP+LCP GHAVGIFRAAVC+RGVAK++DF+PVES++   RSP FTDNS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>/:sptrembl|O41892|O41892</Hit_id>
+  <Hit_def>Genome polyprotein.//:gp|U94421|2431864 polyprotein precursor [Hepatitis GB virus A]</Hit_def>
+  <Hit_accession>/:sptrembl|O41892|O41892</Hit_accession>
+  <Hit_len>2967</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.44</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>1.03444e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>963</Hsp_hit-from>
+      <Hsp_hit-to>1148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRG-------VAKAVDFVPVESMETTMRSPV</Hsp_qseq>
+      <Hsp_hseq>APVVVH-HQGKGFFGVVKTSMTGRDETDHCGNVVVLGTSTTRSMGTCVNGVMYATYHGTNGRTMAGPMGPVNARWWSTSDDVCVYPLPMGATCLEPCKCSPQGVWVV-RNDGALCHGTLGKT-VELDLPAELCDFRGSSGSPILCDEGHAVGML-VSVLHRGNRVTGIRYTKPWETLPREAQTKTEAPPV</Hsp_hseq>
+      <Hsp_midline>AP+  +  Q +G  G + TS+TGRD+    G V V+ T+T   + TCVNGV +  YHG   +T+AGP GP+   + +   D+  +  P GA  L PC C    +++V R+   +     G +   L  P  +   +GSSG P+LC  GHAVG+   +V  RG         K  + +P E+   T   PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>/:sptrembl|O56073|O56073</Hit_id>
+  <Hit_def>Genome polyprotein.//:pironly|T08839|T08839 polyprotein - marmoset hepatitis GB virus A//:gp|AF023424|2828598 polyprotein [Hepatitis GB virus A]</Hit_def>
+  <Hit_accession>/:sptrembl|O56073|O56073</Hit_accession>
+  <Hit_len>2970</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.285</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>2.77555e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>970</Hsp_hit-from>
+      <Hsp_hit-to>1155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRG-------VAKAVDFVPVESMETTMRSPV</Hsp_qseq>
+      <Hsp_hseq>APVVVH-HHGKGFFGVVKTSMTGWDETEHVGNVVVLGTSTTRSMGTCVNGVMYTTYHGSNARTLAAQMGPVNSRWWSASDDVAVYPLPVGAKCLEPCKCQPQGVWVI-RNDGALCHGTLGRT-VELDLPAELCDFRGSSGSPILCDEGHAVGML-ISVLHRGSRVTGIRYTKPWETLPREAITHTEAPPV</Hsp_hseq>
+      <Hsp_midline>AP+  +    +G  G + TS+TG D+ +  G V V+ T+T   + TCVNGV +T YHG+ ++TLA   GP+   + +   D+  +  P GA+ L PC C    ++++ R+   +     G +   L  P  +   +GSSG P+LC  GHAVG+   +V  RG         K  + +P E++  T   PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>/:sptrembl|O56074|O56074</Hit_id>
+  <Hit_def>Genome polyprotein.//:pironly|T08841|T08841 polyprotein - douroucouli hepatitis GB virus A//:gp|AF023425|2828600 polyprotein [Hepatitis GB virus A]</Hit_def>
+  <Hit_accession>/:sptrembl|O56074|O56074</Hit_accession>
+  <Hit_len>3005</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.655</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>6.38627e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>979</Hsp_hit-from>
+      <Hsp_hit-to>1164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGV-------AKAVDFVPVESMETTMRSPV</Hsp_qseq>
+      <Hsp_hseq>APVVVM-QRGLGFFSVVKTSMLGRDEREHEGSIVVLGTSTTRSMGTCVNGVMYTTFHGSNARTLAGPVGPVNCRWWSPSDDVAVYPLPSGASCLEPCKCGTQSVWCIRNDGALCHG--RLSKLVELDLPTEISDFRGSSGSPILCDEGHVVGMM-VSVLHRGVKVTGVRYVKPWETLPKDSQVKSEAPPV</Hsp_hseq>
+      <Hsp_midline>AP+    Q+  G    + TS+ GRD+ + EG + V+ T+T   + TCVNGV +T +HG+ ++TLAGP GP+   + +   D+  +  P GA  L PC CG+  ++ +     +     R      L  P  +S  +GSSG P+LC  GH VG+   +V  RGV        K  + +P +S   +   PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>/:sptrembl|Q96898|Q96898</Hit_id>
+  <Hit_def>Genome polyprotein.//:gp|U22303|1572848 polyprotein [Hepatitis GB virus A]</Hit_def>
+  <Hit_accession>/:sptrembl|Q96898|Q96898</Hit_accession>
+  <Hit_len>2954</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.573</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>6.44499e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>964</Hsp_hit-from>
+      <Hsp_hit-to>1149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRG-------VAKAVDFVPVESMETTMRSPV</Hsp_qseq>
+      <Hsp_hseq>APVVLH-QAGKGFFGVVKTSMTGKDPSEHHGNVVVLGTSTTRSMGCCVNGVVYTTYHGTNARPMAGPFGPVNARWWSASDDVTVYPLPNGASCLQACKCQPTGVWVI-RNDGALCHGTLGK-VVDLDMPAELSDFRGSSGSPILCDEGHAVGML-ISVLHRGSRVSSVRYTKPWETLPREIEARSEAPPV</Hsp_hseq>
+      <Hsp_midline>AP+  + Q  +G  G + TS+TG+D ++  G V V+ T+T   +  CVNGV +T YHG  ++ +AGP GP+   + +   D+  +  P GA  L  C C  + ++++ R+   +     G     L  P  +S  +GSSG P+LC  GHAVG+   +V  RG         K  + +P E    +   PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>/:sptrembl|O09803|O09803</Hit_id>
+  <Hit_def>Genome polyprotein.//:gp|D90600|1944461 polyprotein [Hepatitis GB virus C]</Hit_def>
+  <Hit_accession>/:sptrembl|O09803|O09803</Hit_accession>
+  <Hit_len>2933</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.032</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>2.07745e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>986</Hsp_hit-from>
+      <Hsp_hit-to>1172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDF------VPVESMETTMRSPV</Hsp_qseq>
+      <Hsp_hseq>APVVIR-RCGKGFLGVTKAALTGRDPDLHPGNVMVLGTATSRSMGTCLNGLLFTTFHGASSRTIATPVGALNPRWWSASDDVTVYPLPDGATSLTPCTCQAESCWVIRSDGALCHGLSKGD-KVELDVAMEVSDFRGSSGSPVLCDEGHAVGMLVSVLHSGGRVTAARFTRPWTQVPTDAKTTTEPPPV</Hsp_hseq>
+      <Hsp_midline>AP+    +  +G LG    +LTGRD +   G V V+ TAT   + TC+NG+ +T +HGA S+T+A P G +   + +   D+  +  P GA SLTPCTC +   +++     +     +GD +  L     VS  +GSSG P+LC  GHAVG+  + + + G   A  F      VP ++  TT   PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>/:sptrembl|Q9WBT6|Q9WBT6</Hit_id>
+  <Hit_def>Genome polyprotein.//:gp|AF070476|4883489 polyprotein [GB virus C variant troglodytes]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WBT6|Q9WBT6</Hit_accession>
+  <Hit_len>2942</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.647</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>3.11937e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>997</Hsp_hit-from>
+      <Hsp_hit-to>1183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDF------VPVESMETTMRSPV</Hsp_qseq>
+      <Hsp_hseq>APVVIR-RCGKGFLGVTKSALTGRDPDQHPGNVMVLGTTTSRSMGTCLNGMLFTTYHGATSRTIATPVGALNPRWWSPSDDVTVYPLPDGATSLAPCTCQPSSVWVIRADGALCHGSCHGD-KVELDVAMEVADFRGSSGSPVLCDEGHAVGMLVAVLHVGNRVTAARFTRPWNQVPSDAKTTTEPPPV</Hsp_hseq>
+      <Hsp_midline>AP+    +  +G LG   ++LTGRD +Q  G V V+ T T   + TC+NG+ +T YHGA S+T+A P G +   + +   D+  +  P GA SL PCTC  S ++++     +      GD +  L     V+  +GSSG P+LC  GHAVG+  A +       A  F      VP ++  TT   PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>/:sptrembl|Q9QEW5|Q9QEW5</Hit_id>
+  <Hit_def>Genome polyprotein [Contains: envelope glycoprotein E1 (GP32) (GP35)].//:gp|AF179612|6014505 polyprotein [Hepatitis GB virus B]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9QEW5|Q9QEW5</Hit_accession>
+  <Hit_len>2864</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.002</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>2.15719e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>941</Hsp_hit-from>
+      <Hsp_hit-to>1111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVP</Hsp_qseq>
+      <Hsp_hseq>APFTLQCLSERGTLSAMAVVMTGIDPRTWTGTIFRLGSLATSYMGFVCDNVLYTAHHGSKGRRLAHPTGSIHPITVDAANDQDIYQPPCGAGSLTRCSCGETKGYLVTRLGSLVEVNKSDDPYWCVCGALPMAVAKGSSGAPILCSSGHVIGMFTAARNSGGSVSQIRVRP</Hsp_hseq>
+      <Hsp_midline>AP T      RG L  +   +TG D     G +  + +   S++    + V +T +HG+  + LA P G I  +  +   D   +Q P GA SLT C+CG +  YLVTR   ++ V +  D    +    P++  KGSSG P+LC SGH +G+F AA  + G    +   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>/:sptrembl|Q8QP50|Q8QP50</Hit_id>
+  <Hit_def>Polyprotein (Fragment).</Hit_def>
+  <Hit_accession>/:sptrembl|Q8QP50|Q8QP50</Hit_accession>
+  <Hit_len>1130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.734</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>5.67633e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1031</Hsp_hit-from>
+      <Hsp_hit-to>1130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPPGARSLTPCTCG</Hsp_qseq>
+      <Hsp_hseq>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWPAPSGARSLTPCTCG</Hsp_hseq>
+      <Hsp_midline>APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGW AP GARSLTPCTCG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>/:gp|AF127762|5353561</Hit_id>
+  <Hit_def>superoxide dismutase/HCV major epitope fusion protein [synthetic construct]//:remtrembl|AAD42179|AAD42179 SUPEROXIDE DISMUTASE/HCV MAJOR EPITOPE FUSION PROTEIN.</Hit_def>
+  <Hit_accession>/:gp|AF127762|5353561</Hit_accession>
+  <Hit_len>839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.7588</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.07923e-05</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>AVDFVPVESMETTMRSPVFTDNSS</Hsp_qseq>
+      <Hsp_hseq>AVDFIPVENLETTMRSPVFTDNSS</Hsp_hseq>
+      <Hsp_midline>AVDF+PVE++ETTMRSPVFTDNSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>110</Statistics_hsp-len>
+      <Statistics_eff-space>9422973455</Statistics_eff-space>
+      <Statistics_kappa>0.0423872460765184</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Query_1 1a1qA:  Query_1 1a1qA: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics </Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
